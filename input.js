@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, ueEffect} from "react";
 
 function TextInput(props) {
   const [inputType] = useState(props.type)
